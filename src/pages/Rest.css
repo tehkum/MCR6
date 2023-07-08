@@ -1,0 +1,49 @@
+.rest-name {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.rest-desc {
+    color: #666;
+}
+
+.rest-menu {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 5px;
+}
+
+.restaurants {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rest-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.restaurant-reviews {
+    width: 800px;
+}
+
+.pp-image {
+    border-radius: 25px;
+}
+
+.review-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review-sec-1 {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}

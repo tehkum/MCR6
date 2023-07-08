@@ -1,0 +1,49 @@
+.modal-sides {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* background-color: rgba(37, 36, 36, 0.781); */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-main {
+    background-color: #ef4f5f;
+    padding: 1rem;
+    color: white;
+    border-radius: 10px;
+}
+
+.modal-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 3rem 0.5rem;
+}
+
+.rev-new-comm {
+    resize: none;
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.modal-submit {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    display: inline;
+    font-weight: bold;
+}

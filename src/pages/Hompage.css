@@ -1,0 +1,33 @@
+.cuisineButton {
+    border: 2px solid #ef4f5f;
+    background-color: #ef4f5f;
+    color: white;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cuisine-sec {
+    display: flex;
+    flex-wrap: wrap;
+    gap:  5px;
+}
+
+.dish-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.dish-name{
+    text-align: center;
+    margin-top: 4rem;
+}

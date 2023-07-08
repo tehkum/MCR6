@@ -1,0 +1,21 @@
+.dish-cart {
+    border: 2px solid #bbb5b5
+}
+
+.dish-cart-det {
+    padding: 0 1rem;
+}
+
+.dish-cart-price {
+    margin: 0;
+    color: #666;
+}
+
+.dish-cart-name {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.dish-cart-img {
+    object-fit: cover;
+}
