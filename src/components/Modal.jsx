@@ -20,6 +20,12 @@ export default function Modal({ show, set, resId }){
     const submitHandler = () => {
         restaurantData.find(item=>+item.id === +resId).ratings.push(newReview);
         setRestaurantData([...restaurantData]);
+        setReview({
+            rating: "",
+            comment: "",
+            revName: "Anonymous",
+            pp: "https://randomuser.me/api/portraits/men/7.jpg"
+        })
         set(false)
     }
 
@@ -31,7 +37,7 @@ export default function Modal({ show, set, resId }){
             <hr />
             <div className="modal-inputs">
                 <label>rating:</label>
-                <select name="rating" onChange={eventHandler}>
+                <select name="rating" onChange={eventHandler} value={newReview.rating}>
                     <option value="0">0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -42,7 +48,7 @@ export default function Modal({ show, set, resId }){
             </div>
             <div className="modal-inputs">
                 <label>Comment:</label>
-                <textarea onChange={eventHandler} className="rev-new-comm" name="comment"></textarea>
+                <textarea onChange={eventHandler} className="rev-new-comm" name="comment" value={newReview.comment}></textarea>
             </div>
             <div className="modal-submit"><button className="sub-btn" onClick={submitHandler}>Submit</button></div>
         </div>
